@@ -1,0 +1,104 @@
+
+
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 5px;
+}
+
+body {
+    background: whitesmoke;
+    padding: 40px;
+    font-family: Verdana;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background: rgb(179, 66, 179);
+    left: 0;
+    padding: 20px;
+    top: 0;
+    font-size: large;
+
+}
+
+#scores{
+    display:flex;
+
+}
+
+#scores div{
+    background: rgb(179, 66, 179);
+    margin: 10px;
+    border-radius: 20px 20px 2px 2px;
+    font-size: .7em;
+    padding: 10px 0;
+    width: 80%;
+    text-align: center;
+    
+}
+
+#scores .current-score,
+#scores .best-score {
+    background: white;
+    /* text-align: center; */
+    font-weight: 900;
+    width: 95%;
+    margin-bottom: -8px;
+    
+
+}
+
+/* OPTIONS */
+
+label{
+    display: block;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid rgb(179, 66, 179);
+    margin: 10px;
+    border-radius:10px ;
+    background: rgb(219, 212, 221);
+    
+}
+
+
+
+input[type=radio] {
+    transform: scale(2);
+
+}
+
+.wrong{
+    background: red;
+}
+
+.correct {
+    background: springgreen;
+}
+
+#next,
+#quit {
+    display: block;
+    background: rgb(28, 41, 51);
+    color: white;
+    width: 100%;
+    padding: 20px 0;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+#quit{
+    background: rgb(3, 29, 51);
+}
+
+
